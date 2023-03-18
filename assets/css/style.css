@@ -29,7 +29,7 @@
   --sonic-silver: hsl(0, 0%, 47%);
   --cadet-gray: hsl(214, 15%, 62%);
   --light-gray: hsl(0, 0%, 80%);
-  --coquelicot: hsl(12, 98%, 52%);
+  --coquelicot: hsl(0, 88%, 49%);
   --gainsboro: hsl(0, 0%, 88%);
   --white_20: hsl(0, 0%, 100%, 0.2);
   --white_10: hsl(0, 0%, 100%, 0.1);
@@ -48,7 +48,7 @@
   --fs-3: 2.5rem;
   --fs-4: 2rem;
   --fs-5: 1.8rem;
-  --fs-6: 1.5rem;
+  --fs-6: 1.9rem;
 
   --fw-900: 900;
   --fw-800: 800;
@@ -883,7 +883,7 @@ body {
   transition: var(--transition-1);
 }
 
-.social-link:is(:hover, :focus) { background-color: var(--coquelicot); }
+.social-link:is(:hover, :focus) { background-color: yellow; }
 
 .footer-bottom {
   background-color: var(--rich-black-fogra-29-2);
