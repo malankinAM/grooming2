@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnnaStyle</title>
+
+  <!-- 
+    - favicon
+     
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/ava.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
+  <link rel="preload" as="image" href="./assets/images/heart-rate.svg">
+  <link rel="preload" as="image" href="./assets/images/favicon-32x32.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="https://img.icons8.com/arcade/64/null/barber-scissors.png"  name="barbell-sharp" aria-hidden="true" />
+
+        <span class="span">Grooming</span>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link active" data-nav-link>Домашняя</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>О нас</a>
+          </li>
+
+          <li>
+            <a href="#class" class="navbar-link" data-nav-link>Услуги</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Блог</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Контакты</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">Напиши нам</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section
+        style="background-image: url('./assets/images/hero-bg.png')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">
+              <strong class="strong">Лучший</strong>Мастер для любимца!
+            </p>
+
+            <h1 class="h1 hero-title">Груминг,Стиль любимца </h1>
+
+            <p class="section-text">
+              Наш приоритет вы и ваш питомец,Каждый клиент для нас дорог!Ждем вас у нас!!!
+            </p>
+
+            <a href="#" class="btn btn-primary">Запишись</a>
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/ava.png" width="660" height="753" alt="hero banner" class="w-100">
+
+            <img src="./assets/images/hero-circle-one.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-1">
+            <img src="./assets/images/hero-circle-two.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-2">
+
+            
+            <img src="./assets/images/logo-removebg-preview (1).png" width="348" height="224" alt="calories" class="abs-img abs-img-2"> 
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner has-after">
+            <img src="./assets/images/565656.png" width="660" height="648" loading="lazy" alt="about banner"
+              class="w-100">
+
+            <img src="./assets/images/about-circle-one.png" width="660" height="534" loading="lazy" aria-hidden="true"
+              alt="" class="circle circle-1">
+            <img src="./assets/images/about-circle-two.png" width="660" height="534" loading="lazy" aria-hidden="true"
+              alt="" class="circle circle-2">
+
+        >
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Обомне</p>
+
+            <h2 class="h2 section-title">Добро пожаловать в мой салон!</h2>
+
+            <p class="section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellendus, commodi ab sunt nobis beatae sequi eveniet. Rem at delectus odit, dolore ipsum, doloribus illo quam facere ipsa nisi harum!
+            </p>
+
+            <p class="section-text">
+              Integer placerat vitae metus posuere tincidunt. Nullam suscipit ante ac aliquet viverra vestibulum ante
+              ipsum primis.
+            </p>
+
+            <div class="wrapper">
+
+              <div class="about-coach">
+
+                <figure class="coach-avatar">
+                  <img src="./assets/images/ava.png" width="65" height="65" loading="lazy" alt="">
+                </figure>
+
+                <div>
+                  <h3 class="h3 coach-name">AnnA Style</h3>
+
+                  <p class="coach-title">Грумер </p>
+                </div>
+
+              </div>
+
+              <a href="#" class="btn btn-primary">Узнайте больше</a>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #VIDEO
+      -->
+
+      <section class="section video" aria-label="video">
+        <div class="container">
+
+          <div class="video-card has-before has-bg-image"
+            style="background: url('./assets/images/tild3332-6334-4365-b062-636534303038__2771278eaax.jpg')"   >
+
+         
+
+            <h2 class="h2 card-title">К работе с любовью!</h2>
+
+           
+
+            <a href="#" class="btn-link has-before">Домашняя</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CLASS
+      -->
+
+      <section class="section class bg-dark has-bg-image" id="class" aria-label="class"
+        style="background-image: url('./assets/images/classes-bg.png')">
+        <div class="container">
+
+          <p class="section-subtitle">Услуги</p>
+
+          <h2 class="h2 section-title text-center">Наши клинты всегда довольны!</h2>
+
+          <ul class="class-list has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/1371659009_schastlivye-sobaki-26.jpg" width="416" height="240" loading="lazy" alt="Weight Lifting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/dog-solid-24.png" width="53" height="55" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Уход за когтями</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Арпорыувдллеапэквадрэж
+                    дв
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Довольны</p>
+
+                      <span class="progress-value">85%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/depositphotos_320883414-stock-photo-two-happy-dogs-playing-together.jpg" width="416" height="240" loading="lazy" alt="Cardio & Strenght"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/dog-solid-24.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">SPA-процедуры для собак</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                   нщгрнлдорлорлополплплппоп
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Довольны</p>
+
+                      <span class="progress-value">70%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/1641768479_1-funart-pro-p-sobaka-v-dvizhenii-zhivotnie-1.jpg" width="416" height="240" loading="lazy" alt="Power Yoga"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/dog-solid-24.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Индивидуальная и породная стрижка</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    ллоежрлерждлаенрлнджлвдоджвлкжкж
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Довольны</p>
+
+                      <span class="progress-value">90%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/181722775.jpg" width="416" height="240" loading="lazy" alt="The Fitness Pack"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/dog-solid-24.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Тримминг</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    длповыопакдлолаоывдлрвые.
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Довольны</p>
+
+                      <span class="progress-value">60%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 60%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <p class="section-subtitle">НАШИ НОВОСТИ</p>
+
+          <h2 class="h2 section-title text-center">Последняя лента блога</h2>
+
+          <ul class="blog-list has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                  <img src="./assets/images/istockphoto-1021301002-612x612.jpg" width="440" height="270" loading="lazy"
+                    alt="Going to the gym for the first time" class="img-cover">
+
+                  <time class="card-meta" datetime="2022-07-07">7 July 2022</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Идем первый раз</a>
+                  </h3>
+
+                  <p class="card-text">
+                  гннгнрдщшнгщшдгжгщдж
+                  </p>
+
+                  <a href="#" class="btn-link has-before">Связаться</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                  <img src="./assets/images/istockphoto-1297804383-612x612.jpg" width="440" height="270" loading="lazy"
+                    alt="Parturient accumsan cacus pulvinar magna" class="img-cover">
+
+                  <time class="card-meta" datetime="2022-07-07">7 July 2022</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Любимицы и SPA</a>
+                  </h3>
+
+                  <p class="card-text">
+                   rhoghihreghklooooooooooooooooooooooooooooooooooote
+                  </p>
+
+                  <a href="#" class="btn-link has-before">Связаться</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                  <img src="./assets/images/istockphoto-969077342-612x612.jpg" width="440" height="270" loading="lazy"
+                    alt="Risus purus namien parturient accumsan cacus" class="img-cover">
+
+                  <time class="card-meta" datetime="2022-07-07">7 July 2022</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Стрижка в удовольствие</a>
+                  </h3>
+
+                  <p class="card-text">
+                    рацдрдарфокпорукплоррувпдлрдлоердерылппппп
+                  </p>
+
+                  <a href="#" class="btn-link has-before">Связаться</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="section footer-top bg-dark has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="https://img.icons8.com/arcade/64/null/barber-scissors.png"  name="barbell-sharp" aria-hidden="true" />
+            <!-- <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon> -->
+
+            <span class="span">Grooming</span>
+          </a>
+
+          <p class="footer-brand-text">
+            Как мы работаем:
+          </p>
+
+          <div class="wrapper">
+
+            <img src="./assets/images/footer-clock.png" width="34" height="34" loading="lazy" alt="Clock">
+
+            <ul class="footer-brand-list">
+
+              <li>
+                <p class="footer-brand-title">Понедельник - Пятница</p>
+
+                <p>11:00 - 21:00</p>
+              </li>
+
+              <li>
+                <p class="footer-brand-title">Суббота - Воскресения</p>
+
+                <p>9:00 - 21:00</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Перейти</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Домашняя</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">О нас</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Услуги</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Блог</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Контакты</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Мы находимся</p>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="location" aria-hidden="true"></ion-icon>
+            </div>
+
+            <address class="address footer-link">
+              129336.Москва.д0к0
+            </address>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div>
+              <a href="tel:+79261977354" class="footer-link">+79261977354</a>
+
+              <a href="tel:+79261977354" class="footer-link">+79261977354</a>
+            </div>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div>
+              <a href="mailto:alaska.alex.agp@gmail.com" class="footer-link">alaska.alex.agp@gmail.com</a>
+
+              <a href="mailto:alaska.alex.agp@gmail.com" class="footer-link">alaska.alex.agp@gmail.com</a>
+            </div>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Оставь свою почту</p>
+          </li>
+
+          <li>
+            <form action="" class="footer-form">
+              <input type="email" name="email_address" aria-label="email" placeholder="Email Address" required
+                class="input-field">
+
+              <button type="submit" class="btn btn-primary" aria-label="Submit">
+                <ion-icon name="chevron-forward-sharp" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &копировать; 2023 Фaйл. Все права защищены <a href="#" class="copyright-link">Aфторы</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link has-before">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link has-before">Условия и положения</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
